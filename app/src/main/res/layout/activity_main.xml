@@ -4,17 +4,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#FFFFFF"
     android:gravity="center"
-    android:background="#FFFFFF">
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:text="Git Conflict Demo"
-        android:textSize="24sp"
-        android:textColor="#222222" />
+        android:textColor="#222222"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/button1"
@@ -22,9 +22,13 @@
         android:layout_height="56dp"
         android:text="Button 1"
         android:textAllCaps="false"
-        android:textSize="18sp"
         android:textColor="#FFFFFF"
+
         app:backgroundTint="#4CAF50" />
+
+
+
+
     <Button
         android:id="@+id/button2"
         android:layout_width="220dp"
@@ -32,8 +36,12 @@
         android:layout_marginTop="16dp"
         android:text="Button 2"
         android:textAllCaps="false"
-        android:textSize="18sp"
         android:textColor="#FFFFFF"
+<<<<<<< HEAD
         app:backgroundTint="#4CAF50" />
+=======
+        android:textSize="18sp"
+        app:backgroundTint="#F44336" />
+>>>>>>> origin/main
 
 </LinearLayout>
