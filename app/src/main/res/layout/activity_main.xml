@@ -23,8 +23,11 @@
         android:text="Button 1"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        app:backgroundTint="#F44336" />
+
+        app:backgroundTint="#4CAF50" />
+
+
+
 
     <Button
         android:id="@+id/button2"
@@ -34,7 +37,11 @@
         android:text="Button 2"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
+<<<<<<< HEAD
+        app:backgroundTint="#4CAF50" />
+=======
         android:textSize="18sp"
         app:backgroundTint="#F44336" />
+>>>>>>> origin/main
 
 </LinearLayout>
