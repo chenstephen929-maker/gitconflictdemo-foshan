@@ -24,8 +24,7 @@
         android:textAllCaps="false"
         android:textSize="18sp"
         android:textColor="#FFFFFF"
-        app:backgroundTint="#2196F3" />
-
+        app:backgroundTint="#4CAF50" />
     <Button
         android:id="@+id/button2"
         android:layout_width="220dp"
@@ -35,6 +34,6 @@
         android:textAllCaps="false"
         android:textSize="18sp"
         android:textColor="#FFFFFF"
-        app:backgroundTint="#2196F3" />
+        app:backgroundTint="#4CAF50" />
 
 </LinearLayout>
